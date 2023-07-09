@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="header flex">
+      <!-- // logo -->
+
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+
+      <!-- // navigation button -->
+
+      <ul id="navbar" class="flex nav">
+        <li><a href="index.html" class="hover">Home</a></li>
+        <li><a href="admission.html" class="hover">Admission</a></li>
+        <li><a href="about.html" class="hover">About</a></li>
+        <li><a href="contact.html" class="active hover">Contact</a></li>
+        <li class="lg-bags">
+          <a href="gallery.html"><i class="fad fa fa-images"></i></a>
+        </li>
+        <i id="close" class="fal fa fa-times"></i>
+      </ul>
+
+      <div class="hamburger">
+        <a href="gallery.html"><i class="fad fa fa-images"></i></i></a>
+        <i id="bar" class="fal fa-outdent fa"></i>
+      </div>
+    </div>
+    <section class="contact-pg-header">
+      <h1>#Let's_Talk</h1>
+      <p>Get detail how you can connect with us.</p>
+    </section>
+
+    <section class="contact-detail">
+      <div class="detail">
+        <span>Get IN Touch</span>
+        <h3>Visit in our college location's Or contact today.</h3>
+        <h4>Details</h4>
+        <div>
+          <li>
+            <i class="fal fa-map fa"></i>
+            <p>Azad polytechnic Bharthipur Palhana Azamgarh.</p>
+          </li>
+          <li>
+            <i class="fal fa-envelope fa"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fal fa-phone-alt fa"></i>
+            <p>1800 0066 0000 , 5600 7666 7899</p>
+          </li>
+          <li>
+            <i class="fal fa-clock fa"></i>
+            <p>All day(Sunday-Saturday) - 9:00 AM to 7:00 PM</p>
+          </li>
+        </div>
+      </div>
+      <div class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6203.643232863882!2d83.12274402578699!3d25.768570633769023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991b70fffffffff%3A0x72bc8cf8321df647!2sAzad%20Polytechnic%20Bharthipur!5e1!3m2!1sen!2sin!4v1682000354080!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section class="form">
+      <form onsubmit="sendemail(); reset(); return false;">
+        <span>LEAVE A MESSEGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="email" id="email" placeholder="E-mail" />
+        <input type="text" id="subject" placeholder="Subject" />
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="your message"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+      <div class="people">
+        <div>
+          <img
+            src="https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?size=626&ext=jpg&ga=GA1.1.679665383.1672571699&semt=sph"
+            alt=""/>
+              <p>
+                <span>Arvind Azad</span>Trustee <br />phone: 67800
+                7900 88890 <br />E-mail: contact@example.com
+              </p>
+            </div>
+            <div>
+          <img
+            src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?size=626&ext=jpg&ga=GA1.2.679665383.1672571699&semt=sph"
+            alt=""/>
+            <p>
+            <span>Ram Surat Kannaujia </span>principle <br />phone:
+            12230 7900 88890 <br />E-mail: contact@example.com
+          </p>
+        </div>
+        <div>
+            <img
+            src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg&ga=GA1.2.679665383.1672571699&semt=sph"
+            alt=""/>
+            <p>
+              <span> OM Prakash</span>vice principle <br />phone:
+              25900 7900 88890 <br />E-mail: contact@example.com
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+
+    <div class="newsletter">
+      <div class="newstext">
+        <h4>sign up for newsletters</h4>
+        <p>
+          get e-mail update about any notice, <span>Admission Open.</span>
+        </p>
+      </div>
+      <div class="signup">
+        <input type="email" placeholder="Enter your e-mail" />
+        <button>Sign up</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="section">
+      <div class="col">
+        <img src="images/logo.png" alt="logo" />
+        <h4>contact</h4>
+        <p>
+          <strong>Address :</strong> Maholi Tarwa Mehnagar Azamgarh 276123,UP
+        </p>
+        <p><strong>Phone no. :</strong>18000 45000, 1444 00 6780</p>
+        <p><strong>Hours :</strong> 9am - 7pm, mon-sat</p>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Admission Information</a>
+        <a href="#">Hostel Facilities</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>Hostel Information</h4>
+        <a href="#">Foods Facilities</a>
+        <a href="#">About Fees</a>
+        <a href="#">Rules & Regulations</a>
+        <a href="#">Gallery</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col">
+        <h4>About Placement</h4>
+        <p>In a year 2 & 3 companies are give us his time for placement.</p>
+        <p>for more information</p>
+        <div class="placement-link"><a href="#">click here.</a></div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2023, tech2 etc, College templete</p>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendemail() {
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "rudrasingh400101@info.com",
+          Password: "549A5B05BFB13400D1A256F8C428F435D1E7",
+          To: "rudrasingh400101@gmail.com",
+          From: "rudrasingh400101@gmail.com",
+          Subject: "New Query",
+          Body:
+            "Name :" +
+            document.getElementById("name").value +
+            "<br> <br>" +
+            "Email : " +
+            document.getElementById("email").value +
+            "<br> <br>" +
+            "Subject : " +
+            document.getElementById("subject").value +
+            "<br> <br>" +
+            "Query : " +
+            document.getElementById("textarea").value,
+        }).then((message) => alert("your query has been submited"));
+      }
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>
